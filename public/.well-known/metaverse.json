@@ -1,0 +1,18 @@
+{
+  "protocol": "mvw/0.1",
+  "name": "Mausoleum at Halicarnassus",
+  "description": "The tomb of Mausolus at Halicarnassus around 350 BCE: a high podium, a ring of Ionic columns, a stepped pyramid roof and a marble chariot on top. Scopabubu the sculptor tells its story.",
+  "spawns": {
+    "default": "In the courtyard south of the Mausoleum, facing it",
+    "from_square": "In front of the portal back to Metaverse Square, facing into the world"
+  },
+  "portals": [
+    {
+      "id": "to_square",
+      "label": "Metaverse Square",
+      "href": "https://zlisto.github.io/hub_world/",
+      "spawn": "by_mausoleum",
+      "where": "A glowing pink doorway near where you arrive"
+    }
+  ]
+}
