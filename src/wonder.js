@@ -73,7 +73,7 @@ Around 1494–1522, the **Knights of St. John** took its stones, and burned much
   },
 
   env: { sky: '#9fc6ea', fog: '#d9e2e8', fogNear: 110, fogFar: 430, ground: '#b7ad98', hemiSky: '#fff4e2', hemiGround: '#8a8270', sun: [50, 80, 40], sunIntensity: 1.8 },
-  speed: { walk: 5, run: 9 },
+  speed: { walk: 12, run: 20 },
   bound: 70,
   spawn: { x: 0, z: 44, yaw: 0 },
   portal: { x: -9, z: 50, rot: Math.PI, href: HUB, spawn: 'by_mausoleum' },
