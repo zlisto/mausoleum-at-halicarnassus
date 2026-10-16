@@ -4,7 +4,10 @@
   "description": "The tomb of Mausolus at Halicarnassus around 350 BCE: a high podium, a ring of Ionic columns, a stepped pyramid roof and a marble chariot on top. Scopabubu the sculptor tells its story.",
   "spawns": {
     "default": "In the courtyard south of the Mausoleum, facing it",
-    "from_square": "In front of the portal back to Metaverse Square, facing into the world"
+    "from_square": "In front of the portal back to Metaverse Square, facing into the world",
+    "from_statue_of_zeus": "Arriving from Statue of Zeus, in front of the portal plaza",
+    "to_colossus_of_rhodes": "In front of the portal to Colossus",
+    "to_temple_of_artemis": "In front of the portal to Temple of Artemis"
   },
   "portals": [
     {
@@ -13,6 +16,20 @@
       "href": "https://zlisto.github.io/hub_world/",
       "spawn": "by_mausoleum",
       "where": "A glowing pink doorway near where you arrive"
+    },
+    {
+      "id": "to_colossus_of_rhodes",
+      "label": "Colossus",
+      "href": "https://zlisto.github.io/colossus-of-rhodes/",
+      "spawn": "from_mausoleum",
+      "where": "A tour doorway beside the portal to Metaverse Square (next stop · tour)"
+    },
+    {
+      "id": "to_temple_of_artemis",
+      "label": "Temple of Artemis",
+      "href": "https://zlisto.github.io/temple-of-artemis-at-ephesus/",
+      "spawn": "from_mausoleum",
+      "where": "A shortcut doorway beside the portal to Metaverse Square (coast · shortcut)"
     }
   ]
 }
